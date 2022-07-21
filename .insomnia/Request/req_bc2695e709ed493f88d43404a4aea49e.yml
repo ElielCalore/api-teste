@@ -1,0 +1,23 @@
+_id: req_bc2695e709ed493f88d43404a4aea49e
+type: Request
+parentId: fld_a8e855f8b6704d60b10dbe3bbea1292d
+modified: 1658440051913
+created: 1658439944555
+url: "{{ _.base_url }}/user/disable-profile"
+name: DELETE ACCOUNT
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5Yzk0N2RiMDM1YTgxODJmZDNkOGMiLCJuYW1lIjoiRWxpZWwgQyIsImVtYWlsIjoiZWxpZWxAdGVzdC5jb20iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTY1ODQ0MDAzMSwiZXhwIjoxNjU4NDgzMjMxfQ.N2Ad0Q2RXyTjZrtuXvsTCZc7R5RCapmr7Jgj-GUYUYU
+metaSortKey: -1658437212494
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_cfb27a6482164cf58c2d2bde31b79e8a
+type: Request
+parentId: fld_a8e855f8b6704d60b10dbe3bbea1292d
+modified: 1658440518920
+created: 1658439340350
+url: "{{ _.base_url }}/user/login"
+name: LOGIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "eliel@test.com",
+    	"password": "Senha@Segura123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d66e56439fdd4d0dbc26d33553681fe8
+authentication: {}
+metaSortKey: -1658437212644
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

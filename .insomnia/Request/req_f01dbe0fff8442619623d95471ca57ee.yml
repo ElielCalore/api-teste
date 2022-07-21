@@ -1,0 +1,28 @@
+_id: req_f01dbe0fff8442619623d95471ca57ee
+type: Request
+parentId: fld_a8e855f8b6704d60b10dbe3bbea1292d
+modified: 1658440143526
+created: 1658439434078
+url: "{{ _.base_url }}/user/profile"
+name: MY-PROFILE
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a3907967e8554a5dbe61e401a535fe26
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5Yzk0N2RiMDM1YTgxODJmZDNkOGMiLCJuYW1lIjoiRWxpZWwgQyIsImVtYWlsIjoiZWxpZWxAdGVzdC5jb20iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTY1ODQ0MDEyNywiZXhwIjoxNjU4NDgzMzI3fQ.pd0hhrrz138HflJaSxeBhNotHYxFjiOulmx6pxlSYtw
+metaSortKey: -1658437212594
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

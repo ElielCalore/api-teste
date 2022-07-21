@@ -1,0 +1,31 @@
+_id: req_5178f7508742496386de08001630a2dd
+type: Request
+parentId: fld_a8e855f8b6704d60b10dbe3bbea1292d
+modified: 1658439827985
+created: 1658439708303
+url: "{{ _.base_url }}/user/update-profile"
+name: UPDATE PROFILE
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "TESTE CAIO UPDATE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_90e58d5710ff409eb002acd4b532a0db
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5YzY4N2RiMDM1YTgxODJmZDNkODMiLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTY1ODQzOTQwNSwiZXhwIjoxNjU4NDgyNjA1fQ.Z4o2W1rgjZk0YpW8p5AqFyETIawNTBDICku1FzWPaPM
+metaSortKey: -1658437212544
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
