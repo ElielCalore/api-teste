@@ -1,0 +1,33 @@
+_id: req_5a334badf5a448d785ec277cb1d2bdbb
+type: Request
+parentId: fld_548c373ca73b4445a92b757b75512441
+modified: 1658427708431
+created: 1658423520262
+url: "{{ _.base_url }}/new-transaction"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {	
+    	"description" : "Compra loja1",
+    	"credit" : 12,
+    	"debit" : 0	
+    }
+
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_31f8a7573e6f43a7b6af94936000c12b
+authentication:
+  type: bearer
+metaSortKey: -1658423520262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
