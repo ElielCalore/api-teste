@@ -1,9 +1,9 @@
 _id: req_5a334badf5a448d785ec277cb1d2bdbb
 type: Request
 parentId: fld_548c373ca73b4445a92b757b75512441
-modified: 1658427708431
+modified: 1658429690510
 created: 1658423520262
-url: "{{ _.base_url }}/new-transaction"
+url: "{{ _.base_url }}/transaction/new-transaction"
 name: New Request
 description: ""
 method: POST
