@@ -1,0 +1,23 @@
+_id: req_ed498f685a174f9082e8ce9df7d32a11
+type: Request
+parentId: fld_fb6d135296bb4689a348f64c67ca6c30
+modified: 1658449479523
+created: 1658449229692
+url: "{{ _.base_url }}/category/update/62d9e95ada8aa0fa68014dcd"
+name: UPDATE
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5ZGE0NGM1ZjU2ODllMTdiZTEwNzAiLCJuYW1lIjoiRWxpZWwgQ2Fsb3JlIiwiZW1haWwiOiJlbGllbEB0ZXN0LmNvbSIsImlhdCI6MTY1ODQ0OTEyMywiZXhwIjoxNjU4NDkyMzIzfQ.e8m3WVMXs2R88voOsNPbb9DuO1Q8xTxxZvQmJFMTNyw
+metaSortKey: -1658449229692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

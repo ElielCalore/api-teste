@@ -1,0 +1,23 @@
+_id: req_62f91ab16a3f4b22aa549f04266274e1
+type: Request
+parentId: fld_548c373ca73b4445a92b757b75512441
+modified: 1658446876307
+created: 1658444741907
+url: "{{ _.base_url }}/transaction/62d9db94c5f5689e17be1080"
+name: READ DETAILS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5ZGE0NGM1ZjU2ODllMTdiZTEwNzAiLCJuYW1lIjoiRWxpZWwgQ2Fsb3JlIiwiZW1haWwiOiJlbGllbEB0ZXN0LmNvbSIsImlhdCI6MTY1ODQ0Njg0MywiZXhwIjoxNjU4NDkwMDQzfQ.56UnGO6wHehYujsyd5puFyeB632ktGMNEl1Zy1OCUJM
+metaSortKey: -1658444741907
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

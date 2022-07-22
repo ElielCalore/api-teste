@@ -1,0 +1,23 @@
+_id: req_4811f76aef7b415484307573b37bb42a
+type: Request
+parentId: fld_fb6d135296bb4689a348f64c67ca6c30
+modified: 1658449170332
+created: 1658448380087
+url: "{{ _.base_url }}/category/62d9e95ada8aa0fa68014dcd"
+name: READ DETAILS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5ZGE0NGM1ZjU2ODllMTdiZTEwNzAiLCJuYW1lIjoiRWxpZWwgQ2Fsb3JlIiwiZW1haWwiOiJlbGllbEB0ZXN0LmNvbSIsImlhdCI6MTY1ODQ0OTEyMywiZXhwIjoxNjU4NDkyMzIzfQ.e8m3WVMXs2R88voOsNPbb9DuO1Q8xTxxZvQmJFMTNyw
+metaSortKey: -1658448380087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,19 +1,20 @@
 _id: req_5a334badf5a448d785ec277cb1d2bdbb
 type: Request
 parentId: fld_548c373ca73b4445a92b757b75512441
-modified: 1658429690510
+modified: 1658449029340
 created: 1658423520262
 url: "{{ _.base_url }}/transaction/new-transaction"
-name: New Request
+name: CREATE
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |+
     {	
-    	"description" : "Compra loja1",
-    	"credit" : 12,
-    	"debit" : 0	
+    	"date" : 21072022,
+    	"description" : "teste compra 3",
+    	"credit" : 0,
+    	"debit" : 15	
     }
 
 parameters: []
@@ -23,6 +24,7 @@ headers:
     id: pair_31f8a7573e6f43a7b6af94936000c12b
 authentication:
   type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5ZGE0NGM1ZjU2ODllMTdiZTEwNzAiLCJuYW1lIjoiRWxpZWwgQ2Fsb3JlIiwiZW1haWwiOiJlbGllbEB0ZXN0LmNvbSIsImlhdCI6MTY1ODQ0NDM2NSwiZXhwIjoxNjU4NDg3NTY1fQ.lZQJofeplAR7RAXTHzj_fjX8039zE3KisM3XHfD3Lo0
 metaSortKey: -1658423520262
 isPrivate: false
 settingStoreCookies: true
