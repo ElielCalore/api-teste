@@ -1,9 +1,9 @@
 _id: req_4811f76aef7b415484307573b37bb42a
 type: Request
 parentId: fld_fb6d135296bb4689a348f64c67ca6c30
-modified: 1658449170332
+modified: 1658512928934
 created: 1658448380087
-url: "{{ _.base_url }}/category/62d9e95ada8aa0fa68014dcd"
+url: "{{ _.base_url }}/category/62daaae6432dafc909c246be"
 name: READ DETAILS
 description: ""
 method: GET
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5ZGE0NGM1ZjU2ODllMTdiZTEwNzAiLCJuYW1lIjoiRWxpZWwgQ2Fsb3JlIiwiZW1haWwiOiJlbGllbEB0ZXN0LmNvbSIsImlhdCI6MTY1ODQ0OTEyMywiZXhwIjoxNjU4NDkyMzIzfQ.e8m3WVMXs2R88voOsNPbb9DuO1Q8xTxxZvQmJFMTNyw
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1MTE3NTQsImV4cCI6MTY1ODU1NDk1NH0.NUwlDb2DWq7WIcUuCMxwlWV2QKZK0IzAzjV20vKoIwU
 metaSortKey: -1658448380087
 isPrivate: false
 settingStoreCookies: true

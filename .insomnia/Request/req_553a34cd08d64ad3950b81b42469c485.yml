@@ -1,7 +1,7 @@
 _id: req_553a34cd08d64ad3950b81b42469c485
 type: Request
 parentId: fld_fb6d135296bb4689a348f64c67ca6c30
-modified: 1658449033533
+modified: 1658512332246
 created: 1658447068256
 url: "{{ _.base_url }}/category/new-category"
 name: CREATE
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"code" : "1",
-    	"description": "Mercado 1"
+    	"code" : "DOGS",
+    	"description": "ALIMENTAÇÃO"
     }
 parameters: []
 headers:
@@ -21,7 +21,7 @@ headers:
     id: pair_e1b13daea5604f9aabaa08687ee46505
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5ZGE0NGM1ZjU2ODllMTdiZTEwNzAiLCJuYW1lIjoiRWxpZWwgQ2Fsb3JlIiwiZW1haWwiOiJlbGllbEB0ZXN0LmNvbSIsImlhdCI6MTY1ODQ0ODIwMiwiZXhwIjoxNjU4NDkxNDAyfQ.pUVqCBWdpjdHw86a3preAhP2f4Yw_NowZHMaApwE8Co
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1MTE3NTQsImV4cCI6MTY1ODU1NDk1NH0.NUwlDb2DWq7WIcUuCMxwlWV2QKZK0IzAzjV20vKoIwU
 metaSortKey: -1658447068256
 isPrivate: false
 settingStoreCookies: true

@@ -1,9 +1,9 @@
 _id: req_2b905248029d4a7e96ded5e08da5e9cb
 type: Request
 parentId: fld_fb6d135296bb4689a348f64c67ca6c30
-modified: 1658448338125
+modified: 1658497906997
 created: 1658448237628
-url: "{{ _.base_url }}/category/categories"
+url: "{{ _.base_url }}/category/categories/"
 name: READ ALL
 description: ""
 method: GET
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmQ5ZGE0NGM1ZjU2ODllMTdiZTEwNzAiLCJuYW1lIjoiRWxpZWwgQ2Fsb3JlIiwiZW1haWwiOiJlbGllbEB0ZXN0LmNvbSIsImlhdCI6MTY1ODQ0ODIwMiwiZXhwIjoxNjU4NDkxNDAyfQ.pUVqCBWdpjdHw86a3preAhP2f4Yw_NowZHMaApwE8Co
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg0OTc3MDEsImV4cCI6MTY1ODU0MDkwMX0.MDqFOofXkMgahPpIgs-GJsLGaugf_935AFvSWrSEazc
 metaSortKey: -1658448237628
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_abc480f6c4ba49808e74ef0e4b26c313
 type: Request
 parentId: fld_a8e855f8b6704d60b10dbe3bbea1292d
-modified: 1658444350600
+modified: 1658497639507
 created: 1658437212693
 url: "{{ _.base_url }}/user/signup"
 name: SIGN UP
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Eliel Calore",
-    	"email": "eliel@test.com",
+    	"name": "Caio Garcia",
+    	"email": "caio@test.com",
     	"password": "Senha@Segura123"
     }
 parameters: []
