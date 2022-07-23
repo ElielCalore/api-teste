@@ -1,7 +1,7 @@
 _id: req_5a334badf5a448d785ec277cb1d2bdbb
 type: Request
 parentId: fld_548c373ca73b4445a92b757b75512441
-modified: 1658501481710
+modified: 1658583484560
 created: 1658423520262
 url: "{{ _.base_url }}/transaction/new-transaction"
 name: CREATE
@@ -11,10 +11,9 @@ body:
   mimeType: application/json
   text: |+
     {	
-    	"date" : 22072022,
-    	"description" : "iphone 11 pro",
-    	"credit" : 0,
-    	"debit" : 18000	
+    	"date" : "06072022",
+    	"description" : "iphone 6",
+    	"amount" : 6500.00
     }
 
 parameters: []
@@ -24,7 +23,7 @@ headers:
     id: pair_31f8a7573e6f43a7b6af94936000c12b
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1MDA2NjcsImV4cCI6MTY1ODU0Mzg2N30.uxr1TL4Jm7fCxOeIrEbOkcDjekdAqCsVleZR7ckrZGQ
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODMzNTgsImV4cCI6MTY1ODYyNjU1OH0.UyiZzgi8F2ZMNdWOmZlyILuQDqO9cO3tjMLkvH_rIVg
 metaSortKey: -1658423520262
 isPrivate: false
 settingStoreCookies: true

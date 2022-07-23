@@ -1,28 +1,37 @@
-_id: req_553a34cd08d64ad3950b81b42469c485
+_id: req_c73ae61cdf5e4f7b9d219f3a1f930ea3
 type: Request
-parentId: fld_fb6d135296bb4689a348f64c67ca6c30
-modified: 1658583595251
-created: 1658447068256
-url: "{{ _.base_url }}/category/new-category"
+parentId: fld_984cbeb793c248f2a53b48d9cc361123
+modified: 1658587131543
+created: 1658584842760
+url: "{{ _.base_url }}/bank/custom-bank"
 name: CREATE
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |+
     {
-    	"code" : "DOG",
-    	"description": "ALIMENTAÇÃO"
+    	"bankName" : "Halifax",
+    	"delimiter": ",",
+    	"date": "Transaction Date",
+      "description": "Transaction Description",
+      "credit":"Credit Amount",
+      "debit": "Debit Amount",
+      "amount": ""
     }
+
+    	
+    	
+
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_e1b13daea5604f9aabaa08687ee46505
+    id: pair_68b80d29ac2b42fe90a75f162fd65c0d
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODMzNTgsImV4cCI6MTY1ODYyNjU1OH0.UyiZzgi8F2ZMNdWOmZlyILuQDqO9cO3tjMLkvH_rIVg
-metaSortKey: -1658447068256
+metaSortKey: -1658584842760
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

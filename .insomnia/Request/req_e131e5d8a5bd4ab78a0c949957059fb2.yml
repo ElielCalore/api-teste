@@ -1,20 +1,24 @@
-_id: req_eb4e07e053664bb5a1f3fcaaed3a79a3
+_id: req_e131e5d8a5bd4ab78a0c949957059fb2
 type: Request
-parentId: fld_548c373ca73b4445a92b757b75512441
-modified: 1658583501883
-created: 1658444604692
-url: "{{ _.base_url }}/transaction/transactions"
-name: READ ALL
+parentId: fld_fb6d135296bb4689a348f64c67ca6c30
+modified: 1658584527602
+created: 1658582186645
+url: "{{ _.base_url }}/category/delete/62dbfa2df59ae23fed2af27d"
+name: DELETE
 description: ""
-method: GET
-body: {}
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_084e5610d3d14c8aa8f46d5dbe27c183
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODMzNTgsImV4cCI6MTY1ODYyNjU1OH0.UyiZzgi8F2ZMNdWOmZlyILuQDqO9cO3tjMLkvH_rIVg
-  disabled: false
-metaSortKey: -1658444604692
+metaSortKey: -1658582186645
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

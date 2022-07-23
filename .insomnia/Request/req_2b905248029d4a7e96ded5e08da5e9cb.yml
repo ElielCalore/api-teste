@@ -1,7 +1,7 @@
 _id: req_2b905248029d4a7e96ded5e08da5e9cb
 type: Request
 parentId: fld_fb6d135296bb4689a348f64c67ca6c30
-modified: 1658497906997
+modified: 1658582300242
 created: 1658448237628
 url: "{{ _.base_url }}/category/categories/"
 name: READ ALL
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg0OTc3MDEsImV4cCI6MTY1ODU0MDkwMX0.MDqFOofXkMgahPpIgs-GJsLGaugf_935AFvSWrSEazc
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODIyNjksImV4cCI6MTY1ODYyNTQ2OX0.XBTO9KAAffiWCDjR0o6tOfrbX-RcE3PY42BdKUYEYd8
 metaSortKey: -1658448237628
 isPrivate: false
 settingStoreCookies: true

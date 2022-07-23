@@ -1,7 +1,7 @@
 _id: req_51263316ab7c4387952b56ceb8cbc40c
 type: Request
 parentId: fld_548c373ca73b4445a92b757b75512441
-modified: 1658513709222
+modified: 1658584496877
 created: 1658446393411
 url: "{{ _.base_url }}/transaction/categorize"
 name: UPDATE CATEGORIZE
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"transactionId" : "62dab64d99e3fee5697a45fe",
-    	"categoryId": "62dae396f42d84ddddd6ef71",
-    	"date" : 15072022
+    	"transactionId" : "62dbf9bef59ae23fed2af273",
+    	"categoryId": "62dbfa2df59ae23fed2af27d",
+    	"date" : 23072022
     }
 parameters: []
 headers:
@@ -22,7 +22,7 @@ headers:
     id: pair_5fe6541ac00545d48fe6d1c97cdf6571
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1MTE3NTQsImV4cCI6MTY1ODU1NDk1NH0.NUwlDb2DWq7WIcUuCMxwlWV2QKZK0IzAzjV20vKoIwU
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODMzNTgsImV4cCI6MTY1ODYyNjU1OH0.UyiZzgi8F2ZMNdWOmZlyILuQDqO9cO3tjMLkvH_rIVg
 metaSortKey: -1658446393411
 isPrivate: false
 settingStoreCookies: true

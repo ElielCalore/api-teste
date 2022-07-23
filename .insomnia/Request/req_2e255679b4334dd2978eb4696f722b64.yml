@@ -1,10 +1,10 @@
-_id: req_eb4e07e053664bb5a1f3fcaaed3a79a3
+_id: req_2e255679b4334dd2978eb4696f722b64
 type: Request
-parentId: fld_548c373ca73b4445a92b757b75512441
-modified: 1658583501883
-created: 1658444604692
-url: "{{ _.base_url }}/transaction/transactions"
-name: READ ALL
+parentId: fld_984cbeb793c248f2a53b48d9cc361123
+modified: 1658587653748
+created: 1658587270678
+url: "{{ _.base_url }}/bank/62dc060a3ff0b39f417436ca"
+name: READ DETAILS
 description: ""
 method: GET
 body: {}
@@ -13,8 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODMzNTgsImV4cCI6MTY1ODYyNjU1OH0.UyiZzgi8F2ZMNdWOmZlyILuQDqO9cO3tjMLkvH_rIVg
-  disabled: false
-metaSortKey: -1658444604692
+metaSortKey: -1658587270678
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

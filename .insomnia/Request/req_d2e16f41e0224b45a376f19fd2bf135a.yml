@@ -1,16 +1,26 @@
 _id: req_d2e16f41e0224b45a376f19fd2bf135a
 type: Request
 parentId: fld_548c373ca73b4445a92b757b75512441
-modified: 1658447065578
+modified: 1658584025776
 created: 1658447026873
-url: ""
+url: "{{ _.base_url }}/transaction/delete"
 name: DELETE
 description: ""
 method: DELETE
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"transactionId": "62dbf961f59ae23fed2af25f"
+    }
 parameters: []
-headers: []
-authentication: {}
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a5f5842b0ec94e7b92ac6d07d2f7f88a
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODMzNTgsImV4cCI6MTY1ODYyNjU1OH0.UyiZzgi8F2ZMNdWOmZlyILuQDqO9cO3tjMLkvH_rIVg
 metaSortKey: -1658447026873
 isPrivate: false
 settingStoreCookies: true
