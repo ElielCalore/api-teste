@@ -1,24 +1,27 @@
-_id: req_e131e5d8a5bd4ab78a0c949957059fb2
+_id: req_082a65bb42c24879adfe024b87956bff
 type: Request
-parentId: fld_fb6d135296bb4689a348f64c67ca6c30
-modified: 1658670226309
-created: 1658582186645
-url: "{{ _.base_url }}/category/delete/62dd4c66f69bafc7731c051f"
-name: DELETE
+parentId: fld_984cbeb793c248f2a53b48d9cc361123
+modified: 1658667910503
+created: 1658667479545
+url: "{{ _.base_url }}/bank/update-bank/62dc060a3ff0b39f417436ca"
+name: UPDATE
 description: ""
-method: DELETE
+method: PATCH
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"bankName" : "Halifax Bank"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_084e5610d3d14c8aa8f46d5dbe27c183
+    id: pair_383af8201b134ae891084ac216abb6f5
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg2Njc3MDksImV4cCI6MTY1ODcxMDkwOX0.429haQnuhX7fDhwTtfg4IGUcLcxjApDB2AYRu53MXxI
-metaSortKey: -1658582186645
+metaSortKey: -1658667479545
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

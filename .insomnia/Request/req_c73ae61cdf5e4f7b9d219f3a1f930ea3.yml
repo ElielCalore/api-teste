@@ -1,7 +1,7 @@
 _id: req_c73ae61cdf5e4f7b9d219f3a1f930ea3
 type: Request
 parentId: fld_984cbeb793c248f2a53b48d9cc361123
-modified: 1658587131543
+modified: 1658671278530
 created: 1658584842760
 url: "{{ _.base_url }}/bank/custom-bank"
 name: CREATE
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |+
     {
-    	"bankName" : "Halifax",
+    	"bankName" : "Nubank 2",
     	"delimiter": ",",
     	"date": "Transaction Date",
       "description": "Transaction Description",
@@ -30,7 +30,7 @@ headers:
     id: pair_68b80d29ac2b42fe90a75f162fd65c0d
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODMzNTgsImV4cCI6MTY1ODYyNjU1OH0.UyiZzgi8F2ZMNdWOmZlyILuQDqO9cO3tjMLkvH_rIVg
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg2Njc3MDksImV4cCI6MTY1ODcxMDkwOX0.429haQnuhX7fDhwTtfg4IGUcLcxjApDB2AYRu53MXxI
 metaSortKey: -1658584842760
 isPrivate: false
 settingStoreCookies: true

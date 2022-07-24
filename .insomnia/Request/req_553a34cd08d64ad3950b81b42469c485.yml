@@ -1,7 +1,7 @@
 _id: req_553a34cd08d64ad3950b81b42469c485
 type: Request
 parentId: fld_fb6d135296bb4689a348f64c67ca6c30
-modified: 1658583595251
+modified: 1658672430099
 created: 1658447068256
 url: "{{ _.base_url }}/category/new-category"
 name: CREATE
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"code" : "DOG",
+    	"code" : "SNAKE",
     	"description": "ALIMENTAÇÃO"
     }
 parameters: []
@@ -21,7 +21,7 @@ headers:
     id: pair_e1b13daea5604f9aabaa08687ee46505
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg1ODMzNTgsImV4cCI6MTY1ODYyNjU1OH0.UyiZzgi8F2ZMNdWOmZlyILuQDqO9cO3tjMLkvH_rIVg
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRhYWE4OTQzMmRhZmM5MDljMjQ2YjciLCJuYW1lIjoiQ2FpbyBHYXJjaWEiLCJlbWFpbCI6ImNhaW9AdGVzdC5jb20iLCJpYXQiOjE2NTg2NzI0MDgsImV4cCI6MTY1ODcxNTYwOH0.Qx3Lbt5kOpGxnMJxLxRw3h8kEwMIcL4DB9TMJRJGmcY
 metaSortKey: -1658447068256
 isPrivate: false
 settingStoreCookies: true
